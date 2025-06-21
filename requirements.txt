@@ -1,0 +1,7 @@
+numpy
+gradio
+assemblyai
+translate
+elevenlabs
+dotenv
+translate
