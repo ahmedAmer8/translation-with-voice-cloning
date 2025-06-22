@@ -23,7 +23,7 @@ A powerful multilingual voice translation application that converts English spee
 
 1. **Clone the repository:**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ahmedAmer8/translation-with-voice-cloning.git
 cd voice-translation-app
 ```
 
