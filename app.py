@@ -8,7 +8,6 @@ from elevenlabs import VoiceSettings
 from elevenlabs.client import ElevenLabs
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 ASSEMBLYAI_API_KEY = os.getenv("ASSEMBLYAI_API_KEY")
 DEFAULT_ELEVENLABS_API_KEY = os.getenv("ELEVENLABS_API_KEY")
@@ -32,7 +31,6 @@ def voice_to_voice(audio_file, user_api_key, user_voice_id):
     return (*generated_audio_paths, *list_translations)
 
 
-# Transcribe audio using AssemblyAI
 def transcribe_audio(audio_file):
     aai.settings.api_key = ASSEMBLYAI_API_KEY
     transcriber = aai.Transcriber()
@@ -40,7 +38,6 @@ def transcribe_audio(audio_file):
     return transcript
 
 
-# Translate text into multiple languages (Arabic added, Swedish removed)
 def translate_text(text: str):
     languages = ["ru", "tr", "ar", "de", "es", "ja"]
     translations = []
@@ -51,7 +48,6 @@ def translate_text(text: str):
     return translations
 
 
-# Convert text to speech using ElevenLabs
 def text_to_speech(text: str, api_key: str = None, voice_id: str = None) -> str:
     api_key = api_key or DEFAULT_ELEVENLABS_API_KEY
     voice_id = voice_id or DEFAULT_VOICE_ID
@@ -82,7 +78,6 @@ def text_to_speech(text: str, api_key: str = None, voice_id: str = None) -> str:
     return file_path
 
 
-# UI with Gradio
 with gr.Blocks() as demo:
     gr.Markdown("## 🎙️ Voice-to-Voice Translation App")
     gr.Markdown("## Record your voice in English and hear translations in multiple languages with optional voice cloning via ElevenLabs.")
