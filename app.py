@@ -97,7 +97,7 @@ with gr.Blocks() as demo:
             )
 
             user_api_key = gr.Textbox(label="🔑 Your ElevenLabs API Key (optional)", type="password", placeholder="Paste here to use your voice clone")
-            user_voice_id = gr.Textbox(label="🗣️ Your Cloned Voice ID from ElevenLabs (optional)", placeholder="Your ElevenLabs voice ID")
+            user_voice_id = gr.Textbox(label="🗣️ Your Voice ID from ElevenLabs (optional)", placeholder="Your ElevenLabs voice ID")
 
             with gr.Row():
                 submit = gr.Button("Submit", variant="primary")
