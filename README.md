@@ -106,7 +106,7 @@ The application will start and be available at `http://localhost:7860`
 
 The app is hosted on Hugging Face Spaces for easy access:
 
-1. **Visit the Demo**: Go to `https://huggingface.co/spaces/[your-username]/voice-translation-app`
+1. **Visit the Demo**: Go to `https://huggingface.co/spaces/Ahmed-Amer/Translation-with-voice-cloning`
 2. **No Installation Required**: Use the app directly in your browser
 3. **Bring Your Own Keys**: Enter your ElevenLabs credentials for voice cloning
 
