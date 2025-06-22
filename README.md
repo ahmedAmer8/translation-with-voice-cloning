@@ -1,4 +1,4 @@
-# 🎙️ Voice-to-Voice Translation App
+# 🎙️ Translation App with your own voice
 
 A powerful multilingual voice translation application that converts English speech to multiple languages with voice cloning capabilities using ElevenLabs and AssemblyAI.
 
@@ -23,7 +23,7 @@ A powerful multilingual voice translation application that converts English spee
 
 1. **Clone the repository:**
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/ahmedAmer8/translation-with-voice-cloning.git
 cd voice-translation-app
 ```
 
@@ -32,15 +32,6 @@ cd voice-translation-app
 pip install -r requirements.txt
 ```
 
-Create a `requirements.txt` file with:
-```
-gradio>=4.0.0
-assemblyai
-translate
-elevenlabs
-python-dotenv
-pathlib
-```
 
 3. **Set up environment variables:**
 
@@ -115,7 +106,7 @@ The application will start and be available at `http://localhost:7860`
 
 The app is hosted on Hugging Face Spaces for easy access:
 
-1. **Visit the Demo**: Go to `https://huggingface.co/spaces/[your-username]/voice-translation-app`
+1. **Visit the Demo**: Go to `https://huggingface.co/spaces/Ahmed-Amer/Translation-with-voice-cloning`
 2. **No Installation Required**: Use the app directly in your browser
 3. **Bring Your Own Keys**: Enter your ElevenLabs credentials for voice cloning
 
