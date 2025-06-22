@@ -32,15 +32,6 @@ cd voice-translation-app
 pip install -r requirements.txt
 ```
 
-Create a `requirements.txt` file with:
-```
-gradio>=4.0.0
-assemblyai
-translate
-elevenlabs
-python-dotenv
-pathlib
-```
 
 3. **Set up environment variables:**
 
