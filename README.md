@@ -1,4 +1,4 @@
-# 🎙️ Voice-to-Voice Translation App
+# 🎙️ Translation App with your own voice
 
 A powerful multilingual voice translation application that converts English speech to multiple languages with voice cloning capabilities using ElevenLabs and AssemblyAI.
 
